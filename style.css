@@ -1,35 +1,50 @@
-.pirmas{
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 .container{
-    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+header, footer{
+    background-color:rgb(235, 173, 173);
+    height: 20vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.pirmas{
-    width: 60%;
-    background-color: gray;
+
+#main{
+    display: flex;
+    height: 58vh;
+    margin: 1vh 0;
 }
-.pirmo-pirmas{
-    height: 30%;
-    background-color: green;
+
+Aside{
+    width: 20%;
+    background-color: rgb(178, 181, 231);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 1%;
 }
-.pirmo-antras{
-    height: 25%;
-    width: 50%;
-    background-color: lightgoldenrodyellow;
+article{
+    width: 80%;
+    background-color: rgb(213, 255, 215);
+    display: flex;
+    flex-wrap: wrap;
 }
-.pirmo-trecias{
-    height: 25%;
-    width: 50%;
-    background-color: rgb(114, 224, 224);
-}
-.pirmo-ketvirtas{
-    height: 20%;
+p{
     width: 100%;
-    background-color: rgb(181, 107, 224);
+    text-align: center;
+    padding-top: 10%;
 }
-.antras{
-    width: 40%;
-    background-color: rgb(65, 151, 151);
+.foto{
+    width: 31%;
+    background-color: rgb(152, 152, 240);
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
