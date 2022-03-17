@@ -1,0 +1,35 @@
+.pirmas{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+}
+.pirmas{
+    width: 60%;
+    background-color: gray;
+}
+.pirmo-pirmas{
+    height: 30%;
+    background-color: green;
+}
+.pirmo-antras{
+    height: 25%;
+    width: 50%;
+    background-color: lightgoldenrodyellow;
+}
+.pirmo-trecias{
+    height: 25%;
+    width: 50%;
+    background-color: rgb(114, 224, 224);
+}
+.pirmo-ketvirtas{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(181, 107, 224);
+}
+.antras{
+    width: 40%;
+    background-color: rgb(65, 151, 151);
+}
